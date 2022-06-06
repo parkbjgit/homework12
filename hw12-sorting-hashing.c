@@ -171,7 +171,7 @@ int selectionSort(int* a) // 선택정렬
 			}
 		}
 		a[minindex] = a[i]; // i번째 원소(리스트의 첫번째)로 지정해둔 데이터를, 찾아낸 최솟값 자리로 이동
-		a[i] = min; // 찾아낸 최솟값을 리스트의 첫번째자리로 이동
+		a[i] = min; // 찾아낸 최솟값을 리스트의 첫번째 자리로 이동
 	}
 
 	printf("----------------------------------------------------------------\n");
@@ -315,6 +315,7 @@ int hashing(int* a, int** ht) // 해싱_ 배열에 대한 해시테이블 만들
 	for(int i = 0; i < MAX_HASH_TABLE_SIZE; i++)
 		printf("hashtable[%d] = %d\n", i, hashtable[i]);
 	*/
+
 	int key = -1;
 	int hashcode = -1;
 	int index = -1;
