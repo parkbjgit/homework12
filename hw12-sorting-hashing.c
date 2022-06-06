@@ -315,7 +315,6 @@ int hashing(int* a, int** ht) // 해싱_ 배열에 대한 해시테이블 만들
 	for(int i = 0; i < MAX_HASH_TABLE_SIZE; i++)
 		printf("hashtable[%d] = %d\n", i, hashtable[i]);
 	*/
-
 	int key = -1;
 	int hashcode = -1;
 	int index = -1;
